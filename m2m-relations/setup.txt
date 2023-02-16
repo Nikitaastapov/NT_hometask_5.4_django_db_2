@@ -16,7 +16,7 @@ createdb -U postgres netology_m2m_relations
 pip install psycopg2-binary
 6) python3 manage.py makemigrations - отправка изменений + python manage.py migrate
 7) python3 manage.py migrate - создание структуры базы данных
-8) python3 manage.py loaddata school.json
+8) python3 manage.py loaddata articles.json
 9) python3 manage.py createsuperuser - создание пользователя для Админ
 10) python3 manage.py runserver - запуск сервера
 
